@@ -9,7 +9,6 @@ $(document).ready(function(){
     }
     itemsArray.push(inputItem);
     $("form")[0].reset();
-    console.log(itemsArray);
   });
   $("button#showList").click(function()  {
     $("ol").empty();
