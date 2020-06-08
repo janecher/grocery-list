@@ -12,18 +12,21 @@
 <body>
   <div class="container">
     <h1>Grocery List</h1>
-    <form>
-      <div class="form-group">
-        <label for="item">What I need from the store:</label>
-        <input class="form-control" id="item" type="text">
-      </div>
-      <button id="addItem" type="submit">Add item to the list</button>
-    </form>
-    <button id="showList" type="click">Show me the list</button>
+    <div class="input-items">
+      <form>
+        <div class="form-group">
+          <label for="item">What I need from the store:</label>
+          <input class="form-control" id="item" type="text">
+        </div>
+        <button id="addItem" type="submit">Add item to the list</button>
+      </form>
+      <button id="showList" type="click">Show me the list</button>
+    </div>
     <div id="list">
       <ol>
 
       </ol>
+      <button id="back">Go back</button>
     </div>
   </div>
 </body>

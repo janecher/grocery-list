@@ -1,0 +1,12 @@
+button{
+  margin-top: 20px;
+}
+
+ol{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#list{
+  display: none;
+}
